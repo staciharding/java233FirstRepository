@@ -19,7 +19,7 @@ public class GitAttempt {
     public void printOutput() {
         int x = output.getOccurrence();
         for (int i = 0; i < x; i++) {
-            System.out.println(output.getMessage());
+            System.out.println((i + 1) + ")" + output.getMessage());
         }
     }
 
